@@ -54,3 +54,6 @@ Object.entries(categories).forEach(([categoryName, encodings]) => {
 text.oninput = updateHexFromText;
 hex.oninput = updateTextFromHex;
 encodingSelector.onchange = updateHexFromText;
+
+text.value = 'Text';
+updateHexFromText();
