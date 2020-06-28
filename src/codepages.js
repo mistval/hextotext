@@ -4,12 +4,12 @@ export const categories = {
   ],
   Unicode: [
     { name: 'UTF-8', alias: 'utf8' },
-    { name: 'UTF-16', alias: 'UTF-16' },
     { name: 'UTF-16 Little Endian', alias: 'utf16le' },
     { name: 'UTF-16 Big Endian', alias: 'UTF-16BE' },
-    { name: 'UTF-32', alias: 'UTF-32' },
+    { name: 'UTF-16 Auto', alias: 'UTF-16' },
     { name: 'UTF-32 Little Endian', alias: 'UTF-32BE' },
     { name: 'UTF-32 Big Endian', alias: 'UTF-32LE' },
+    { name: 'UTF-32 Auto', alias: 'UTF-32' },
   ],
   'Windows Codepages': [
     { name: 'CP874 - Thai', alias: 'win874' },
