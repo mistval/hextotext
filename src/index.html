@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <title>HexToText</title>
+  </head>
+  <body>
+    <div class="container-fluid mt-5 px-5">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="comment"><h3>Text</h3></label>
+            <textarea class="form-control" rows="5" id="text"></textarea>
+          </div>
+          <select class="form-control selectpicker" id="encodingSelector"></select>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="comment"><h3>Hex</h3></label>
+            <textarea class="form-control" rows="5" id="hex"></textarea>
+          </div> 
+        </div>
+      </div>
+    </div>
+    <style>
+      textarea {
+        resize: none;
+        height: 220px;
+      }
+    </style>
+  </body>
+</html>
